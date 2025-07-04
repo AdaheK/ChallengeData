@@ -1,0 +1,8 @@
+pandas
+sqlalchemy
+requests
+beautifulsoup4
+lxml
+psycopg2-binary
+django
+djangorestframework
