@@ -1,0 +1,172 @@
+{
+	"info": {
+		"_postman_id": "e83e98f7-606a-4880-8f90-3405dfa1107f",
+		"name": "Data Lake Challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15408096"
+	},
+	"item": [
+		{
+			"name": "rh_salaire",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/rh/salaire/?ville=Aix&domaine=data",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"rh",
+						"salaire",
+						""
+					],
+					"query": [
+						{
+							"key": "ville",
+							"value": "Aix"
+						},
+						{
+							"key": "domaine",
+							"value": "data"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "rh_offres",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/rh/offres/?ville=Paris&domaine=Data",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"rh",
+						"offres",
+						""
+					],
+					"query": [
+						{
+							"key": "ville",
+							"value": "Paris"
+						},
+						{
+							"key": "domaine",
+							"value": "Data"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "tech_popularity",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/tech/popularity/?tech_type=database",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"tech",
+						"popularity",
+						""
+					],
+					"query": [
+						{
+							"key": "tech_type",
+							"value": "database"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "diversity",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/diversity/?country=France",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"diversity",
+						""
+					],
+					"query": [
+						{
+							"key": "country",
+							"value": "France"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "salary_by_country_seniority",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/salary/by-country-seniority/?country=France",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"salary",
+						"by-country-seniority",
+						""
+					],
+					"query": [
+						{
+							"key": "country",
+							"value": "France"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
